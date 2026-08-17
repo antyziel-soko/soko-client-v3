@@ -1,0 +1,7 @@
+{
+  "Domyślny": {
+    "version": "1.21.4",
+    "loader": "Fabric",
+    "ram": 4
+  }
+}

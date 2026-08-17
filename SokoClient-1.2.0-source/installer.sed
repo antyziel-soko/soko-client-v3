@@ -1,0 +1,30 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=0
+HideExtractAnimation=1
+UseLongFileName=1
+InsideCompressed=1
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=
+DisplayLicense=
+FinishMessage=SokoClient zosta? zainstalowany w profilu bie??cego u?ytkownika.
+TargetName=C:\Users\miszt\Documents\Codex\2026-07-31\referenced-chatgpt-conversation-this-is-an\work\SokoClient\installer_output\SokoClient-Setup-1.2.0.exe
+FriendlyName=Instalator SokoClient
+AppLaunched=installer.cmd
+PostInstallCmd=<None>
+AdminQuietInstCmd=
+UserQuietInstCmd=
+SourceFiles=SourceFiles
+[Strings]
+FILE0="SokoClient.exe"
+FILE1="installer.cmd"
+[SourceFiles]
+SourceFiles0=C:\Users\miszt\Documents\Codex\2026-07-31\referenced-chatgpt-conversation-this-is-an\work\SokoClient\dist\
+[SourceFiles0]
+%FILE0%=
+%FILE1%=C:\Users\miszt\Documents\Codex\2026-07-31\referenced-chatgpt-conversation-this-is-an\work\SokoClient\

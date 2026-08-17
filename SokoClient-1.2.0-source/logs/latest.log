@@ -1,0 +1,45 @@
+[23:29:23] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.19.3
+[23:29:23] [ForkJoinPool-1-worker-8/WARN]: Mod feather uses the version release/226b53e4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'release/226b53e4'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[23:29:23] [ForkJoinPool-1-worker-6/WARN]: Mod com_github_oryxel1_cubeconverter uses the version abecffaaea which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'abecffaaea'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[23:29:23] [main/WARN]: Mod resolution failed
+[23:29:23] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED catlean 0.1.3 {depends minecraft @ [26.2]}, ROOT_FORCELOAD_SINGLE catlean 0.1.3]
+[23:29:23] [main/INFO]: Reason: [HARD_DEP catlean 0.1.3 {depends minecraft @ [26.2]}, HARD_DEP cloth-config 26.2.155 {depends minecraft @ [>=26.2-]}, HARD_DEP entityculling 1.10.5 {depends minecraft @ [~26.2]}, HARD_DEP ferritecore 9.0.0 {depends minecraft @ [>=26.1 <27]}, HARD_DEP ias 9.0.7+26.2-fabric {depends minecraft @ [26.2]}, HARD_DEP lithium 0.25.1+mc26.2 {depends minecraft @ [~26.2]}, HARD_DEP modmenu 20.0.0-beta.4 {depends minecraft @ [>=26.2-]}, HARD_DEP viafabricplus 4.6.1 {depends minecraft @ [26.2]}, HARD_DEP viafabricplus 4.6.1 {depends java @ [>=25]}, HARD_DEP fabric-renderer-indigo 9.0.2+e73ab60d9e {depends minecraft @ [>=26.1-rc.2]}, HARD_DEP transition 1.0.21 {depends minecraft @ [~26.2]}, HARD_DEP trender 1.0.15 {depends minecraft @ [~26.2]}]
+[23:29:23] [main/INFO]: Fix: add [], remove [], replace [[ias 9.0.7+26.2-fabric] -> add:ias 1 ([(-∞,∞)]), [lithium 0.25.1+mc26.2] -> add:lithium 1 ([(-∞,∞)]), [cloth-config 26.2.155] -> add:cloth-config 1 ([(-∞,∞)]), [viafabricplus 4.6.1] -> add:viafabricplus 4.6.0 ([(-∞,∞)]), [ferritecore 9.0.0] -> add:ferritecore 1 ([(-∞,∞)]), [modmenu 20.0.0-beta.4] -> add:modmenu 1 ([(-∞,∞)]), [catlean 0.1.3] -> add:catlean 1 ([(-∞,∞)]), [entityculling 1.10.5] -> add:entityculling 1 ([(-∞,∞)])]
+[23:29:23] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'In-Game Account Switcher' (ias) 9.0.7+26.2-fabric with any version that is compatible with:
+		 - minecraft 1.21.4
+	 - Replace mod 'Lithium' (lithium) 0.25.1+mc26.2 with any version that is compatible with:
+		 - minecraft 1.21.4
+	 - Replace mod 'Cloth Config v26.2' (cloth-config) 26.2.155 with any version that is compatible with:
+		 - minecraft 1.21.4
+	 - Replace mod 'ViaFabricPlus' (viafabricplus) 4.6.1 with any version that is compatible with:
+		 - minecraft 1.21.4
+		 - java 21
+	 - Replace mod 'FerriteCore' (ferritecore) 9.0.0 with any version that is compatible with:
+		 - minecraft 1.21.4
+	 - Replace mod 'Mod Menu' (modmenu) 20.0.0-beta.4 with any version that is compatible with:
+		 - minecraft 1.21.4
+	 - Replace mod 'CatLean' (catlean) 0.1.3 with any version that is compatible with:
+		 - minecraft 1.21.4
+	 - Replace mod 'EntityCulling' (entityculling) 1.10.5 with any version that is compatible with:
+		 - minecraft 1.21.4
+More details:
+	 - Mod 'CatLean' (catlean) 0.1.3 requires version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'Cloth Config v26.2' (cloth-config) 26.2.155 requires version 26.2- or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'EntityCulling' (entityculling) 1.10.5 requires any version between 26.2 (inclusive) and 26.3- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'FerriteCore' (ferritecore) 9.0.0 requires any version between 26.1 (inclusive) and 27 (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'In-Game Account Switcher' (ias) 9.0.7+26.2-fabric requires version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'Lithium' (lithium) 0.25.1+mc26.2 requires any version between 26.2 (inclusive) and 26.3- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'Mod Menu' (modmenu) 20.0.0-beta.4 requires version 26.2- or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'ViaFabricPlus' (viafabricplus) 4.6.1 requires version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'ViaFabricPlus' (viafabricplus) 4.6.1 requires version 25 or later of 'OpenJDK 64-Bit Server VM' (java), but only the wrong version is present: 21!
+	 - Mod 'Fabric Renderer - Indigo' (fabric-renderer-indigo) 9.0.2+e73ab60d9e requires version 26.1-rc.2 or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'TRansition' (transition) 1.0.21 requires any version between 26.2 (inclusive) and 26.3- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	 - Mod 'TRender' (trender) 1.0.15 requires any version between 26.2 (inclusive) and 26.3- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.4!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:202) ~[fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.19.3.jar:?]

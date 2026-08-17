@@ -1,0 +1,17 @@
+{
+  "username": "",
+  "ram": 4,
+  "java": "Automatycznie",
+  "java_path": "",
+  "version": "1.21.4",
+  "loader": "Fabric",
+  "minecraft_folder": "",
+  "jvm_arguments": "",
+  "resolution_width": 1280,
+  "resolution_height": 720,
+  "theme": "Ciemny",
+  "active_profile": "Domyślny",
+  "update_manifest_url": "",
+  "launcher_version": "1.1.0",
+  "last_launched": "1.21.4 Fabric"
+}
